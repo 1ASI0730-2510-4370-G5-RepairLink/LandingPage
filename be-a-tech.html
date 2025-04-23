@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RepairLink  - Be a Technician</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <header>
+                <img src="logo-producto.png" alt="Product-Logo" class="partial-image-left"/>
+                <nav aria-label="Barra de navegación" class="segmented-container">
+                <button aria-label="Muestra sección Home" class="segmented-button" onclick="selectButton(this)">Home</button>
+                <button aria-label="Muestra sección Our System" class="segmented-button" onclick="selectButton(this)">Our System</button>
+                <button aria-label="Muestra sección Be a Partner" class="segmented-button selected" onclick="selectButton(this)">Be a Partner</button>
+                <button aria-label="Muestra sección Reviews" class="segmented-button" onclick="selectButton(this)">Reviews</button>
+                </nav>
+                <img src="account-logo.png" alt="Logo-account" class="partial-image-right"/>
+            </header>
 
+        <main>
+            <section class="hero-box">
+                <div class="hero-content">
+                    <h2>Join our team</h2>
+                    <p>¡Give a high-quality service, in a high-quality page!</p>
+                    <a href="" class="cta-button">¡Join Now!</a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/Be-a-tech.png" alt="Technician illustration">
+                </div>
+            </section>
+            
+            <section class="benefits-box">
+                <div class="benefit-item">✔️ Manage your own schedule</div>
+                <div class="benefit-item">✔️ We pay more than the market rate</div>
+                <div class="benefit-item">✔️ Easy to use platform</div>
+            </section>
+
+            <section class="subscription-wrapper">
+                <div class="subscription-box">
+                    <div class="subscription-content">
+                        <h3>¡Additional benefits!</h3>
+                        <p>Unlock exclusive tools to grow your repair business:</p>
+                        <ul class="subscription-list">
+                          <li>🔧 Access to priority repair requests</li>
+                          <li>📊 Performance analytics and monthly insights</li>
+                          <li>💼 Promotion on top of technician listings</li>
+                          <li>📞 Direct contact with potential clients</li>
+                          <li>🎁 Early access to new features</li>
+                        </ul>
+                        <p>Subscribe now and take your repair career to the next level!</p>
+                    </div>
+                </div>
+                <div class="subscription-img">
+                  <img src="subs-benefit.png" alt="Subscription illustration">
+                </div>
+            </section>
+
+            <section class="contact-form-box">
+                <h3>Contact Us</h3>
+                <p>If you have questions or want to know more, just reach out!</p>
+                <form action="#" method="POST" class="contact-form">
+                  <input type="text" name="name" placeholder="Your name" required>
+                  <input type="email" name="email" placeholder="Your email" required>
+                  <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+                  <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </section>
+
+        </main>
+
+        <footer>
+            © RepairLink Inc 2025
+        </footer>
+
+        <script>
+        </script>
+    </body>
+</html>
