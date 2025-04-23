@@ -1,1 +1,296 @@
+body, html {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fcead2;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
 
+main {
+  flex: 1;
+  padding-top: 100px
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: rgb(248, 224, 181);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  font-family: 'Roboto Slab', serif;
+}
+
+header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 95%;
+  height: 1px;
+  background-color: #000000;
+}
+
+.partial-image-left {
+  width: 80px;         
+  height: auto;
+  position: absolute;
+  top: 10px;             
+  left: 50px;            
+  object-fit: contain;
+}
+
+.partial-image-right {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: 15px;
+  right: 50px;
+  object-fit: contain;
+}
+
+
+.segmented-container {
+  display: flex;
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #dce4f5;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.segmented-button {
+  flex: 1;
+  border: none;
+  background: transparent;
+  padding: 8px 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  border: 1px groove rgb(216, 216, 216);
+  transition: all 0.3s;
+}
+
+.segmented-button.selected {
+  background-color: #bad1ff;
+  color: black;
+}
+
+.segmented-button:hover:not(.selected) {
+  background-color: #bcd2ff;
+}
+
+.hero-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 80px auto 60px;
+  padding: 60px 40px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #f8daac, #a5cbeb);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: left;
+}
+
+.hero-content {
+  flex: 1 1 500px;
+}
+
+.hero-box h2 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero-box p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.hero-image {
+  flex: 1 1 400px;
+  text-align: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  max-height: 280px;
+  border-radius: 12px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #005ecb;
+}
+
+.benefits-box {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  background-color: transparent;
+  box-shadow: none;
+  max-width: 1000px;
+  margin: 60px auto;
+  padding: 30px 25px;
+}
+
+.benefit-item {
+  flex: 1 1 220px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.subscription-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+.subscription-box {
+  background: linear-gradient(135deg, #f8daac, #a5cbeb);
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  flex: 1 1 500px;
+}
+
+.subscription-content h3 {
+  font-size: 28px;
+  margin-bottom: 12px;
+}
+
+.subscription-content p {
+  font-size: 16px;
+}
+
+.subscription-img {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.subscription-img img {
+  max-width: 100%;
+  height: auto;
+  max-height: 280px;
+  border-radius: 12px;
+}
+
+.subscription-list {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+footer{
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background-color: rgb(250, 235, 209);
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+footer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%; 
+  height: 1px;
+  background-color: black;
+}
+
+.contact-form-box {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+.contact-form button {
+  margin-top: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .subscription-wrapper {
+    flex-direction: column;
+  }
+
+  .subscription-box,
+  .subscription-img {
+    width: 100%;
+  }
+
+  .subscription-content {
+    text-align: center;
+  }
+
+  .hero-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-image img {
+    max-height: 220px;
+  }
+}
