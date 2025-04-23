@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RepairLink</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Roboto+Slab:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body>
+<header>
+    <img src="images/logo-producto.png" alt="images/logo-producto" class="partial-image-left"/>
+    <div aria-label="Barra de navegacion" class="segmented-container">
+        <button aria-label="Muestra seccion Home" class="segmented-button" onclick="selectButton(this)">Home</button>
+        <button aria-label="Muestra seccion Our System" class="segmented-button selected" onclick="selectButton(this)">Reparations</button>
+        <button aria-label="Muestra seccion Be a Partner" class="segmented-button" onclick="selectButton(this)">Be a Technician</button>
+        <button aria-label="Muestra seccion Reviews" class="segmented-button" onclick="selectButton(this)">Reviews</button>
+    </div>
+    <img src="images/account-logo.png" alt="images/account-logo" class="partial-image-right"/>
+</header>
+<!-- Reparations Section -->
+<div class="reparations" id="reparations">
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Fix your gadgets with us</h1>
+                <a href="/registro" class="btn-primary">¡We've got high quality technicians!</a>
+            </div>
+            <img src="images/hero-back3.png" alt="Technician-hero" />
+        </div>
+    </section>
+    <section class="service">
+        <div class="service-content">
+            <div class="service-text">
+                <h1>Available devices</h1>
+            </div>
+        </div>
+        <div class="slider">
+            <div><img src="images/handyman.png" alt="Slide 1">Handyman</div>
+            <div><img src="images/homeappliances.png" alt="Slide 2">Home Appliances</div>
+            <div><img src="images/plumbing.png" alt="Slide 3">Plumbing</div>
+            <div><img src="images/tvmounting.png" alt="Slide 1">TV Mounting</div>
+            <div><img src="images/dorr.png" alt="Slide 2">Door</div>
+            <div><img src="images/phonerepair.png" alt="Slide 3">Phone Repair</div>
+            <div><img src="images/smarthome.png" alt="Slide 3">Home Smart Installation</div>
+        </div>
+    </section>
+    <section class="description">
+        <div class="checklist-container">
+            <div class="checklist">
+                <div class="checklist-item">
+                    <input type="checkbox" id="item1" checked disabled>
+                    <label for="item1">High-quality service</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="item2" checked disabled>
+                    <label for="item2">Home service</label>
+                </div>
+                <div class="checklist-item">
+                    <input type="checkbox" id="item3" checked disabled>
+                    <label for="item3">Available 24/7</label>
+                </div>
+            </div>
+            <div class="description-image">
+                <img src="images/checkimage.png" alt="Technician" />
+            </div>
+        </div>
+
+    </section>
+</div>
+<footer>
+    <p>© RepairLink Inc 2025</p>
+</footer>
+<!----Java script-->
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
