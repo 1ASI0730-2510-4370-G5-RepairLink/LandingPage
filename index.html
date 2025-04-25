@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>RepairLink  - Be a Technician</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <header>
+                <img src="images/logo-producto.png" alt="Product-Logo" class="partial-image-left"/>
+                <nav aria-label="Barra de navegación" class="segmented-container">
+                <button aria-label="Muestra sección Home" class="segmented-button selected" onclick="selectButton(this)">Home</button>
+                <button aria-label="Muestra sección Our System" class="segmented-button" onclick="selectButton(this)">Reparations</button>
+                <button aria-label="Muestra sección Be a Partner" class="segmented-button" onclick="selectButton(this)">Be a Technician</button>
+                <button aria-label="Muestra sección Reviews" class="segmented-button" onclick="selectButton(this)">Reviews</button>
+                </nav>
+                <div class="header-right-container">
+                    <div class="language-switcher">
+                        <button class="lang-btn" onclick="translatePage('en')">EN</button>
+                        <button class="lang-btn" onclick="translatePage('es')">ES</button>
+                    </div>
+                </div>
+
+                <img src="images/account-logo.png" class="partial-image-right">
+            </header>
+
+        <main>
+            <!--HOME SECTION-->
+            <section class="hero-box" id="home-section">
+                <div class="hero-content">
+                    <h2>Welcome to RepairLink</h2>
+                    <p>¡Instant Reparations!</p>
+                    <a href="" class="cta-button">¡Join Now!</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/person-Home.png" alt="Technician illustration">
+                </div>
+            </section>
+
+            <section class="benefits-box">
+                <div class="benefit-item">✔️ We provide 30 days warranty</div>
+                <div class="benefit-item">✔️ High-quality technicians</div>
+                <div class="benefit-item">✔️ More than 1M+ users trust in us</div>
+            </section>
+
+            <section class="About-Us-Container">
+                <h1>About Us</h1>
+                <h2>¡Get to know us and our business process!</h2>
+            </section>
+
+            <section class="About-Us-Description-Container">
+                <div class="About-Us-Description-content">
+                    <h2>1. Select what home apliance <br>you need to get repaired</h2>
+                    <p>Choose ypur device and book with the <br>technician of your choice</p>
+                </div>
+                <div class="About-Us-Description-image">
+                    <img src="images/person.png" alt="Technician illustration">
+                </div>
+
+                <div class="About-Us-Description-image">
+                    <img src="images/persona3.png" alt="Technician illustration">
+                </div>
+
+                <div class="About-Us-Description-content">
+                    <h2>2. Immediate booking and the <br>fastest service</h2>
+                    <p>Once the booking is done, we will confirm it through e-mail</p>
+                </div>
+                
+                <div class="About-Us-Description-content">
+                    <h2>3. All set and done, just <br>wait for your technician</h2>
+                    <p>Now just wait for your tech at home</p>
+                </div>
+                <div class="About-Us-Description-image">
+                    <img src="images/persona2.png" alt="Technician illustration">
+                </div>
+            </section>
+
+            <section class="About-Us-Container">
+                <h1>Who we are</h1>
+            </section>            
+
+            <section class="benefits-box">
+                <div class="benefit-item">✔️ Jose Martinez - Engineering Team Member</div>
+                <div class="benefit-item">✔️ Sebastian Cordova - Engineering Team Member</div>
+                <div class="benefit-item">✔️ Karen Ramos - Engineering Team Member</div>
+                <div class="benefit-item">✔️ Stanley Gutierrez - Engineering Team Member</div>
+                <div class="benefit-item">✔️ Edson Llamozas - Engineering Team Member</div>
+            </section>
+
+            
+
+            <!--OUR STSYEM SECTION-->
+            <section class="hero-box" id="reparations-section">
+                <div class="hero-content">
+                    <h2>Fix your gadgets with us</h2>
+                    <p>¡We have got high-quality technicians!</p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/person-Reparations.png" alt="Technician illustration">
+                </div>
+            </section>
+
+            <section class="About-Us-Container">
+                <h1>Available Reparations</h1>
+            </section>            
+            <section class="benefits-box">
+                <div class="image-container">
+                    <img src="images/handyman.png" alt="Handyman service" class="image-item">
+                </div>
+                <div class="image-container">
+                    <img src="images/plumbing.png" alt="Plumbing service" class="image-item">
+                </div>
+                <div class="image-container">
+                    <img src="images/phonerepair.png" alt="Phone repair service" class="image-item">
+                </div>
+                <div class="image-container">
+                    <img src="images/homeappliances.png" alt="Phone repair service" class="image-item">
+                </div>
+                <div class="image-container">
+                    <img src="images/tvmounting.png" alt="Phone repair service" class="image-item">
+                </div>
+            </section>
+
+            <section class="subscription-wrapper">
+                <div class="subscription-img">
+                    <img src="images/checkimage.png" alt="Subscription illustration">
+                  </div>
+                <div class="features-box">
+                    <div class="subscription-content">
+                        <h3>¡The best service in the market!</h3>
+                        <p>Unlock exclusive tools to grow your repair business:</p>
+                        <ul class="subscription-list">
+                          <li>🔧 High-quality service</li>
+                          <li>📊 We are available 24/7</li>
+                          <li>💼 Fast home service</li>
+                          <li>📞 Good prices</li>
+                        </ul>
+                        <p>Join now and repair your gadgets with the best of the best!</p>
+                    </div>
+                </div>
+                
+            </section>
+
+
+            <!--BE A TECH SECTION-->
+            <section class="hero-box" id="betech-section">
+                <div class="hero-content">
+                    <h2>Join our team</h2>
+                    <p>¡Give a high-quality service, in a high-quality page!</p>
+                    <a href="" class="cta-button">¡Join Now!</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/Be-a-tech.png" alt="Technician illustration">
+                </div>
+            </section>
+            
+            <section class="benefits-box">
+                <div class="benefit-item">✔️ Manage your own schedule</div>
+                <div class="benefit-item">✔️ We pay more than the market rate</div>
+                <div class="benefit-item">✔️ Easy to use platform</div>
+            </section>
+
+            <section class="subscription-wrapper">
+                <div class="subscription-box">
+                    <div class="subscription-content">
+                        <h3>¡Additional benefits!</h3>
+                        <p>Unlock exclusive tools to grow your repair business:</p>
+                        <ul class="subscription-list">
+                          <li>🔧 Access to priority repair requests</li>
+                          <li>📊 Performance analytics and monthly insights</li>
+                          <li>💼 Promotion on top of technician listings</li>
+                          <li>📞 Direct contact with potential clients</li>
+                          <li>🎁 Early access to new features</li>
+                        </ul>
+                        <p>Subscribe now and take your repair career to the next level!</p>
+                    </div>
+                </div>
+                <div class="subscription-img">
+                  <img src="images/subs-benefit.png" alt="Subscription illustration">
+                </div>
+            </section>
+
+            <section class="contact-form-box">
+                <h3>Contact Us</h3>
+                <p>If you have questions or want to know more, just reach out!</p>
+                <form action="#" method="POST" class="contact-form">
+                  <input type="text" name="name" placeholder="Your name" required>
+                  <input type="email" name="email" placeholder="Your email" required>
+                  <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+                  <button type="submit" class="cta-button">Send Message</button>
+                </form>
+            </section>
+
+            <!--REVIEWS SECTION-->
+            <div class="container" id="review-section">
+        
+                <!-- Client Reviews Section (A) -->
+                <div class="section">
+        
+                    <div class="ClientSectorContainer">
+                        <h1>Clients</h1>
+                        <h2>¡Check some of our clients reviews!</h2>
+                    </div>
+                    
+                    <div class="slideshow-container" id="clientReviews">
+                        <!-- Client Review 1 -->
+                        <div class="review-slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">
+                                Great service, so many of my gadgets have been perfectly repaired.
+                            </p>
+                            <p class="review-author">Emma Rodriguez</p>
+                        </div>
+                        
+                        <!-- Client Review 2 -->
+                        <div class="review-slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">
+                                As a daily user for over a year, I can confidently say RepairLink provides the best service in the city. Their customer support is exceptional.
+                            </p>
+                            <p class="review-author">James Wilson</p>
+                        </div>
+                        
+                        <!-- Client Review 3 -->
+                        <div class="review-slide">
+                            <div class="stars">★★★★☆</div>
+                            <p class="review-text">
+                                Great concept and mostly well-executed. Would love to see more technicians in my area. Otherwise, fantastic service!
+                            </p>
+                            <p class="review-author">Sophia Chen</p>
+                        </div>
+                        
+                        <!-- Navigation arrows -->
+                        <a class="prev" onclick="plusSlides('clientReviews', -1)">❮</a>
+                        <a class="next" onclick="plusSlides('clientReviews', 1)">❯</a>
+                        
+                        <!-- Dots navigation -->
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide('clientReviews', 1)"></span>
+                            <span class="dot" onclick="currentSlide('clientReviews', 2)"></span>
+                            <span class="dot" onclick="currentSlide('clientReviews', 3)"></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Bike Reviews Section (B) -->
+                <div class="section">
+        
+                    <div class="ClientSectorContainer">
+                        <h1>Technicians</h1>
+                        <h2>¡Check some of our technicians reviews!</h2>
+                    </div>            
+                    <div class="slideshow-container" id="bikeReviews">
+                        <!-- Bike Review 1 -->
+                        <div class="review-slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">
+                                This platform is amazing, i have been able to expand my business in so little time!
+                            </p>
+                            <p class="review-author">Michael Thompson</p>
+                        </div>
+                        
+                        <!-- Bike Review 2 -->
+                        <div class="review-slide">
+                            <div class="stars">★★★★☆</div>
+                            <p class="review-text">
+                                This is the real deal, the wages are amazing.
+                            </p>
+                            <p class="review-author">Lisa Park</p>
+                        </div>
+                        
+                        <!-- Bike Review 3 -->
+                        <div class="review-slide">
+                            <div class="stars">★★★★★</div>
+                            <p class="review-text">
+                                Intuitive paltform, easy to use and easy to get gigs. Worth it!
+                            </p>
+                            <p class="review-author">David Miller</p>
+                        </div>
+                        
+                        <!-- Navigation arrows -->
+                        <a class="prev" onclick="plusSlides('bikeReviews', -1)">❮</a>
+                        <a class="next" onclick="plusSlides('bikeReviews', 1)">❯</a>
+                        
+                        <!-- Dots navigation -->
+                        <div class="dots">
+                            <span class="dot" onclick="currentSlide('bikeReviews', 1)"></span>
+                            <span class="dot" onclick="currentSlide('bikeReviews', 2)"></span>
+                            <span class="dot" onclick="currentSlide('bikeReviews', 3)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <footer>
+            <div class="footer-element">
+            © RepairLink Inc 2025
+            </div>
+            <div class="footer-socials">
+                <img src="images/facebook.png">
+                <img src="images/instagram.png">
+                <img src="images/twitter.png">
+                <img src="images/linkedin.png">
+            </div>
+        </footer>
+
+    <script>
+        // Initialize slide indices for both slideshows
+        let slideIndices = {
+            clientReviews: 1,
+            bikeReviews: 1
+        };
+    
+        // Show initial slides for both slideshows
+        showSlides('clientReviews', slideIndices.clientReviews);
+        showSlides('bikeReviews', slideIndices.bikeReviews);
+    
+        function plusSlides(slideshowId, n) {
+            slideIndices[slideshowId] += n;
+            showSlides(slideshowId, slideIndices[slideshowId]);
+        }
+    
+        function currentSlide(slideshowId, n) {
+            slideIndices[slideshowId] = n;
+            showSlides(slideshowId, slideIndices[slideshowId]);
+        }
+    
+        function showSlides(slideshowId, n) {
+            let i;
+            // Get elements specific to the current slideshow
+            let slideshow = document.getElementById(slideshowId);
+            let slides = slideshow.getElementsByClassName("review-slide");
+            let dots = slideshow.getElementsByClassName("dot");
+            
+            // Handle wrap-around
+            if (n > slides.length) { slideIndices[slideshowId] = 1 }
+            if (n < 1) { slideIndices[slideshowId] = slides.length }
+            
+            // Hide all slides
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            
+            // Remove active class from all dots
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            
+            // Show current slide and activate corresponding dot
+            slides[slideIndices[slideshowId]-1].style.display = "block";
+            dots[slideIndices[slideshowId]-1].className += " active";
+        }
+    
+        // Auto-advance both slideshows
+        setInterval(function() {
+            plusSlides('clientReviews', 1);
+        }, 5000);
+    
+        setInterval(function() {
+            plusSlides('bikeReviews', 1);
+        }, 5000);
+    </script>
+    <script>
+        function selectButton(clickedButton){
+            const allButtons= document.querySelectorAll('.segmented-button');
+            allButtons.forEach(button =>{
+                button.classList.remove('selected');
+            })
+
+            clickedButton.classList.add('selected')
+
+            const buttonText= clickedButton.textContent.trim();
+            let targetId='';
+
+            switch(buttonText){
+                case 'Home':
+                    targetId = 'home-section';
+                    break;
+                case 'Reparations':
+                    targetId = 'reparations-section';
+                    break;
+                case 'Be a Technician':
+                    targetId = 'betech-section';
+                    break;
+                case 'Reviews':
+                    targetId = 'review-section';
+                    break;
+            }
+            if(targetId){
+                document.getElementById(targetId).scrollIntoView({
+                    behavior:'smooth'
+                })
+            }
+        }
+    </script>
+    <script>
+        // Translation dictionary
+        const translations = {
+            'en': {}, // English will use original text
+            'es': {
+                // Header and navigation
+                'Home': 'Inicio',
+                'Reparations': 'Reparaciones',
+                'Be a Technician': 'Sé un Técnico',
+                'Reviews': 'Reseñas',
+                
+                // Home section
+                'Welcome to RepairLink': 'Bienvenido a RepairLink',
+                '¡Instant Reparations!': '¡Reparaciones Instantáneas!',
+                '¡Join Now!': '¡Únete Ahora!',
+                'We provide 30 days warranty': 'Ofrecemos 30 días de garantía',
+                'High-quality technicians': 'Técnicos de alta calidad',
+                'More than 1M+ users trust in us': 'Más de 1 millón de usuarios confían en nosotros',
+                'About Us': 'Sobre Nosotros',
+                '¡Get to know us and our business process!': '¡Conócenos y nuestro proceso de negocio!',
+                '1. Select what home apliance you need to get repaired': '1. Selecciona qué electrodoméstico necesitas reparar',
+                'Choose ypur device and book with the technician of your choice': 'Elige tu dispositivo y reserva con el técnico de tu preferencia',
+                '2. Immediate booking and the fastest service': '2. Reserva inmediata y el servicio más rápido',
+                'Once the booking is done, we will confirm it through e-mail': 'Una vez hecha la reserva, la confirmaremos por correo electrónico',
+                '3. All set and done, just wait for your technician': '3. Todo listo, solo espera a tu técnico',
+                'Now just wait for your tech at home': 'Ahora solo espera a tu técnico en casa',
+                'Who we are': 'Quiénes somos',
+                
+                // Reparations section
+                'Fix your gadgets with us': 'Repara tus dispositivos con nosotros',
+                '¡We have got high-quality technicians!': '¡Tenemos técnicos de alta calidad!',
+                'Available Reparations': 'Reparaciones Disponibles',
+                '¡The best service in the market!': '¡El mejor servicio del mercado!',
+                'Unlock exclusive tools to grow your repair business:': 'Desbloquea herramientas exclusivas para hacer crecer tu negocio de reparaciones:',
+                'High-quality service': 'Servicio de alta calidad',
+                'We are available 24/7': 'Estamos disponibles 24/7',
+                'Fast home service': 'Servicio rápido a domicilio',
+                'Good prices': 'Buenos precios',
+                'Join now and repair your gadgets with the best of the best!': '¡Únete ahora y repara tus dispositivos con los mejores!',
+                
+                // Be a Technician section
+                'Join our team': 'Únete a nuestro equipo',
+                '¡Give a high-quality service, in a high-quality page!': '¡Ofrece un servicio de alta calidad en una página de alta calidad!',
+                'Manage your own schedule': 'Administra tu propio horario',
+                'We pay more than the market rate': 'Pagamos más que la tarifa del mercado',
+                'Easy to use platform': 'Plataforma fácil de usar',
+                '¡Additional benefits!': '¡Beneficios adicionales!',
+                'Access to priority repair requests': 'Acceso a solicitudes de reparación prioritarias',
+                'Performance analytics and monthly insights': 'Análisis de rendimiento e información mensual',
+                'Promotion on top of technician listings': 'Promoción en los primeros lugares de los listados de técnicos',
+                'Direct contact with potential clients': 'Contacto directo con clientes potenciales',
+                'Early access to new features': 'Acceso anticipado a nuevas funciones',
+                'Subscribe now and take your repair career to the next level!': '¡Suscríbete ahora y lleva tu carrera de reparación al siguiente nivel!',
+                
+                // Contact section
+                'Contact Us': 'Contáctanos',
+                'If you have questions or want to know more, just reach out!': 'Si tienes preguntas o quieres saber más, ¡contáctanos!',
+                'Your name': 'Tu nombre',
+                'Your email': 'Tu correo electrónico',
+                'Your message': 'Tu mensaje',
+                'Send Message': 'Enviar Mensaje',
+                
+                // Reviews section
+                'Clients': 'Clientes',
+                '¡Check some of our clients reviews!': '¡Mira algunas reseñas de nuestros clientes!',
+                'Great service, so many of my gadgets have been perfectly repaired.': 'Excelente servicio, muchos de mis dispositivos han sido perfectamente reparados.',
+                'As a daily user for over a year, I can confidently say RepairLink provides the best service in the city. Their customer support is exceptional.': 'Como usuario diario durante más de un año, puedo decir con confianza que RepairLink ofrece el mejor servicio de la ciudad. Su soporte al cliente es excepcional.',
+                'Great concept and mostly well-executed. Would love to see more technicians in my area. Otherwise, fantastic service!': 'Gran concepto y en su mayoría bien ejecutado. Me encantaría ver más técnicos en mi área. ¡Por lo demás, servicio fantástico!',
+                'Technicians': 'Técnicos',
+                '¡Check some of our technicians reviews!': '¡Mira algunas reseñas de nuestros técnicos!',
+                'This platform is amazing, i have been able to expand my business in so little time!': 'Esta plataforma es increíble, ¡he podido expandir mi negocio en tan poco tiempo!',
+                'This is the real deal, the wages are amazing.': 'Esto es lo mejor, los salarios son increíbles.',
+                'Intuitive paltform, easy to use and easy to get gigs. Worth it!': 'Plataforma intuitiva, fácil de usar y fácil para conseguir trabajos. ¡Vale la pena!',
+                
+                // Footer
+                '© RepairLink Inc 2025': '© RepairLink Inc 2025'
+            }
+        };
+    
+        // Store original text content for all elements
+        const originalTexts = new Map();
+        const elementsToTranslate = document.querySelectorAll('h1, h2, p:not(.review-author), .review-text, footer, .segmented-button, input[placeholder], textarea[placeholder]');
+    
+        // Save original texts
+        elementsToTranslate.forEach(element => {
+            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                originalTexts.set(element, element.getAttribute('placeholder'));
+            } else {
+                originalTexts.set(element, element.textContent.trim());
+            }
+        });
+    
+        let currentLang = 'en';
+    
+        function translatePage(targetLang) {
+            if (currentLang === targetLang) return;
+    
+            // If switching back to English, restore all original texts
+            if (targetLang === 'en') {
+                elementsToTranslate.forEach(element => {
+                    const originalText = originalTexts.get(element);
+                    if (originalText) {
+                        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                            element.setAttribute('placeholder', originalText);
+                        } else {
+                            element.textContent = originalText;
+                        }
+                    }
+                });
+            } else {
+                // Translate to Spanish
+                elementsToTranslate.forEach(element => {
+                    let textToTranslate;
+                    if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                        textToTranslate = element.getAttribute('placeholder');
+                    } else {
+                        textToTranslate = element.textContent.trim();
+                    }
+    
+                    if (translations[targetLang][textToTranslate]) {
+                        if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                            element.setAttribute('placeholder', translations[targetLang][textToTranslate]);
+                        } else {
+                            element.textContent = translations[targetLang][textToTranslate];
+                        }
+                    }
+                });
+            }
+    
+            // Update UI
+            document.querySelectorAll('.lang-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent === targetLang.toUpperCase());
+            });
+    
+            // Update HTML lang attribute
+            document.documentElement.lang = targetLang;
+            currentLang = targetLang;
+    
+            // Store preference
+            localStorage.setItem('preferredLanguage', targetLang);
+        }
+    
+        // Check for saved language preference on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+            if (savedLang !== 'en') {
+                translatePage(savedLang);
+            }
+        });
+    </script>
+    <!--
+    <script>
+        // Store original text content for all elements
+        const originalTexts = new Map();
+        const elementsToTranslate = document.querySelectorAll('h1, h2, p:not(.review-author), .review-text, footer p, .segmented-button');
+        
+        // Save original texts
+        elementsToTranslate.forEach(element => {
+            originalTexts.set(element, element.textContent.trim());
+        });
+
+        let currentLang = 'en';
+
+        async function translatePage(targetLang) {
+            if (currentLang === targetLang) return;
+
+            // If switching back to English, restore all original texts
+            if (targetLang === 'en') {
+                elementsToTranslate.forEach(element => {
+                    const originalText = originalTexts.get(element);
+                    if (originalText) {
+                        element.textContent = originalText;
+                    }
+                });
+                
+                // Update UI
+                document.querySelectorAll('.lang-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.textContent === 'EN');
+                });
+                
+                // Update HTML lang attribute
+                document.documentElement.lang = 'en';
+                currentLang = 'en';
+                
+                // Store preference
+                localStorage.setItem('preferredLanguage', 'en');
+                return;
+            }
+
+            // For Spanish translation
+            try {
+                // Show loading state
+                document.body.style.opacity = '0.7';
+                document.body.style.pointerEvents = 'none';
+                
+                // Translate each element
+                for (const element of elementsToTranslate) {
+                    const text = element.textContent.trim();
+                    if (!text) continue;
+
+                    // Special case for "Reparations" button
+                    if (text === 'Reparations' && element.classList.contains('segmented-button')) {
+                        element.textContent = 'Reparaciones';
+                        continue;
+                    }
+
+                    // Use OpenAI for translation
+                    const response = await fetch('https://api.openai.com/v1/chat/completions', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                            'Authorization': 'Bearer xxxxxxxxxxxx' // Replace with your actual key
+                        },
+                        body: JSON.stringify({
+                            model: "gpt-3.5-turbo",
+                            messages: [
+                                {
+                                    role: "system",
+                                    content: `Translate the following text to ${targetLang === 'es' ? 'Spanish' : 'English'}. Only return the translation, nothing else.`
+                                },
+                                {
+                                    role: "user",
+                                    content: text
+                                }
+                            ],
+                            temperature: 0.3
+                        })
+                    });
+                    
+                    if (!response.ok) {
+                        console.error('Translation error:', await response.text());
+                        continue;
+                    }
+                    
+                    const data = await response.json();
+                    const translatedText = data.choices[0].message.content;
+                    element.textContent = translatedText;
+                }
+                
+                // Update UI
+                document.querySelectorAll('.lang-btn').forEach(btn => {
+                    btn.classList.toggle('active', btn.textContent === targetLang.toUpperCase());
+                });
+                
+                // Update HTML lang attribute
+                document.documentElement.lang = targetLang;
+                currentLang = targetLang;
+                
+                // Store preference
+                localStorage.setItem('preferredLanguage', targetLang);
+                
+            } catch (error) {
+                console.error('Translation failed:', error);
+                alert('Translation service is currently unavailable. Please try again later.');
+            } finally {
+                // Restore UI
+                document.body.style.opacity = '';
+                document.body.style.pointerEvents = '';
+            }
+        }
+
+        // Check for saved language preference on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const savedLang = localStorage.getItem('preferredLanguage') || 'en';
+            if (savedLang !== 'en') {
+                translatePage(savedLang);
+            }
+        });
+    </script>
+    -->
+    
+    </body>
+</html>
