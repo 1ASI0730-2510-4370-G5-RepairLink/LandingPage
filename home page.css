@@ -1,0 +1,118 @@
+/* Material Design inspired with Roboto and Roboto Slab */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f0f8;
+  padding: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  gap: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  color: black;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+nav a:hover {
+  background-color: #e0e0e0;
+}
+
+nav a.active {
+  background-color: #dcdcdc;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent), #999;
+  padding: 4rem 2rem;
+  margin: 2rem 0;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+.hero button {
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #e0e0e0;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+  gap: 1rem;
+}
+
+.feature {
+  flex: 1;
+  background-color: #eee;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
+/* About Section */
+.about {
+  margin: 2rem 0;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.about h2 {
+  margin-bottom: 1rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.about p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Carousel Placeholder */
+.carousel {
+  background-color: #ccc;
+  height: 200px;
+  border-radius: 20px;
+  margin: 2rem 0;
+}
+
